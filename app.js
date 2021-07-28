@@ -21,7 +21,7 @@ const makeImages = function (shows) {
             const lineBreak = document.createElement('br');
             newImg.src = res.show.image.medium;
             title.append(res.show.name);
-            title.append("Genres: ");
+            title.append("  Genres: ");
             for (genre of res.show.genres) {
                 title.append(genre);
                 title.append("  ");
